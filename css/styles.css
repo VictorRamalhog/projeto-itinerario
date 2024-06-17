@@ -13,6 +13,10 @@ a, li {
   list-style: none;
 }
 
+i {
+  color: #000000;
+}
+
 body {
   background-color: rgb(0, 0, 0);
 }
@@ -22,6 +26,14 @@ h1:hover {
   background-clip: text;
   -webkit-text-fill-color: transparent;
   cursor: pointer;
+}
+
+.subtilgbt {
+  background: -webkit-linear-gradient(0deg, rgba(255,0,0,1) 0%, rgba(248,115,22,1) 20%, rgba(47,173,76,1) 50%, rgba(44,94,251,1) 80%, rgba(116,22,168,1) 100%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 1rem;
+  font-size: 1.3rem;
 }
 
 .inicio {
@@ -188,4 +200,62 @@ h1:hover {
 .global-quem {
   display: flex;
   flex-wrap: wrap;
+}
+
+.formulario-sec {
+  padding: 2rem;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  max-width: 600px;
+  margin: 50px auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+input, textarea {
+  color: #000;
+}
+
+.formulario-sec h2 {
+  margin-bottom: 1rem;
+  color: #333;
+  text-align: center;
+}
+
+.formulario-sec p {
+  margin-bottom: 2rem;
+  color: #666;
+  text-align: center;
+}
+
+.formulario-contato {
+  display: flex;
+  flex-direction: column;
+}
+
+.formulario-contato label {
+  margin-bottom: 0.5rem;
+  color: #333;
+}
+
+.formulario-contato input,
+.formulario-contato textarea {
+  margin-bottom: 1rem;
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.formulario-contato button {
+  padding: 0.75rem;
+  border: none;
+  border-radius: 4px;
+  background-color: #007BFF;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.formulario-contato button:hover {
+  background-color: #0056b3;
 }
